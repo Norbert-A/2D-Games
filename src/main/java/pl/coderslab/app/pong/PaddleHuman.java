@@ -1,4 +1,4 @@
-package pl.coderslab.app;
+package pl.coderslab.app.pong;
 
 public class PaddleHuman {
 

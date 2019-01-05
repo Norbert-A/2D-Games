@@ -1,4 +1,8 @@
-package pl.coderslab.app;
+package pl.coderslab.app.pong;
+
+import pl.coderslab.app.pong.Ball;
+import pl.coderslab.app.pong.PaddleComputer;
+import pl.coderslab.app.pong.PaddleHuman;
 
 import java.applet.*;
 import java.awt.event.*;
