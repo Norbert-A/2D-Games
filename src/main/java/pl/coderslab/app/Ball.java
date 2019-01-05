@@ -1,4 +1,4 @@
-package pl.coderslab.app.pong;
+package pl.coderslab.app;
 
 public class Ball{
 
@@ -9,7 +9,7 @@ public class Ball{
 
     public Ball(){
 
-        setCor(250, 150);
+        setCor(250, 145);
     }
 
     public void setCor(int x, int y){
@@ -32,7 +32,7 @@ public class Ball{
 
     public void reset(){
 
-        setCor(250,140);
+        setCor(250,145);
         directionX = 5;
         directionY = -5;
     }

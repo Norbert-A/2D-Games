@@ -1,31 +1,30 @@
-package pl.coderslab.app.pong;
+package pl.coderslab.app;
 
-public class ComputerPaddle {
+public class PaddleComputer {
 
     private int yCor = 0;
     private int score;
-    final int xCor = 470;
+    final int xCor = 460;
 
-    public ComputerPaddle(int ballCor){
+    public PaddleComputer(int ballCor){
 
         setyCor(ballCor);
         setScore(0);
     }
 
-    public void setyCor(int yCor){
+    public void setyCor(int cor){
 
-        this.yCor = yCor;
-
-        if(yCor > 270){
-            setyCor(270);
+        this.yCor = cor;
+        if(yCor > 230){
+            setyCor(230);
         }
-        else if (yCor < 0){
+        else if(yCor < 0){
             setyCor(0);
         }
     }
 
     public int getyCor(){
-        return this.yCor;
+        return yCor;
     }
 
     public void setScore(int score){
@@ -35,5 +34,4 @@ public class ComputerPaddle {
     public int getScore(){
         return this.score;
     }
-
 }
