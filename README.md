@@ -1,2 +1,2 @@
 # Pong
-Old fashioned Applet game.
+Oldschool applet game.
