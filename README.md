@@ -1,2 +1,2 @@
-# 2D-Games
-Website with some 2D games
+# Pong
+Old fashioned Applet game.
